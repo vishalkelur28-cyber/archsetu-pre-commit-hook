@@ -1,0 +1,8 @@
+- id: archsetu
+  name: ArchSetu code analysis
+  description: Deterministic static analysis (dead code, health score, security risk) before commit
+  entry: archsetu analyze --json
+  language: node
+  additional_dependencies: ['@archsetuweb/cli@latest']
+  pass_filenames: false
+  always_run: true
