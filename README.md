@@ -10,7 +10,7 @@ Add to your `.pre-commit-config.yaml`:
 
     repos:
       - repo: https://github.com/vishalkelur28-cyber/archsetu-pre-commit-hook
-        rev: v0.1.0
+        rev: v0.1.1
         hooks:
           - id: archsetu
 
@@ -23,3 +23,7 @@ Every commit will now print ArchSetu's analysis results in your terminal.
 ## Learn more
 
 Full platform: https://www.archsetu.com
+
+## License
+
+MIT. See [LICENSE](./LICENSE).
